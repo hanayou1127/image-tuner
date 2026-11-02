@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image Tuner 개인정보처리방침</title>
+<style>
+  :root { --bg: #fafafa; --fg: #18181b; --muted: #52525b; --line: #e4e4e7; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #18181b; --fg: #f4f4f5; --muted: #a1a1aa; --line: #3f3f46; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; word-break: keep-all; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 26px; line-height: 1.3; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  p, li { color: var(--fg); }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  ul { padding-left: 20px; }
+</style>
+</head>
+<body>
+<main>
+<section lang="ko">
+  <h1>Image Tuner 개인정보처리방침</h1>
+  <p class="date">시행일: 2026년 11월 2일</p>
+  <p>Image Tuner는 웹 페이지의 이미지와 동영상을 그 자리에서 보정하고, 보정한 이미지를 파일로 저장하는 Chrome 확장 프로그램입니다. 이 확장 프로그램은 개발자나 제3자의 서버로 사용자 데이터를 보내지 않습니다. 광고와 사용 통계도 넣지 않았습니다.</p>
+
+  <h2>다루는 데이터와 쓰는 이유</h2>
+  <ul>
+    <li><b>웹사이트의 이미지:</b> 히스토그램, 자동 보정, 저장에 원본 픽셀이 필요합니다. 사용자가 보정 창을 연 이미지를 그 이미지의 원래 주소에서 다시 받아 브라우저 안에서만 계산합니다.</li>
+    <li><b>쿠키:</b> 로그인해야 보이는 이미지도 받을 수 있도록, 이미지를 다시 받을 때 브라우저가 그 이미지의 사이트 쿠키를 함께 보냅니다. 확장 프로그램은 쿠키를 읽거나 저장하지 않습니다.</li>
+    <li><b>마우스와 키 입력:</b> 마우스 아래에 이미지가 있는지 확인해 버튼을 띄우고, 보정 창의 단축키를 처리하는 데에만 씁니다. 기록하지 않습니다.</li>
+    <li><b>사이트 이름:</b> 사용자가 "이 사이트에서 항상 적용"을 켠 사이트의 호스트 이름과 보정 값을 저장합니다. 방문 기록은 저장하지 않습니다.</li>
+    <li><b>사용자가 만든 설정:</b> 프리셋, 복사한 보정 값, 불러온 LUT의 색 표와 이름(최근 8개), 색 맞추기 기준 이미지의 색 분포 숫자와 파일 이름, 보정 창의 탭과 분석 화면 선택을 저장합니다.</li>
+  </ul>
+
+  <h2>저장 위치</h2>
+  <p>위의 설정은 이 브라우저의 확장 프로그램 저장 공간에만 저장합니다. 버튼 표시 켜기/끄기 값 하나만 Chrome 동기화 저장 공간을 쓰므로, Chrome 동기화를 켠 경우 그 값이 사용자의 Google 계정을 통해 다른 기기로 전달됩니다.</p>
+
+  <h2>제3자 제공</h2>
+  <p>사용자 데이터를 판매하거나 제3자에게 넘기지 않습니다. 이미지 요청은 그 이미지가 있는 원래 사이트로만 갑니다.</p>
+
+  <h2>Limited Use 준수</h2>
+  <p>Image Tuner의 사용자 데이터 사용은 Chrome 웹 스토어 사용자 데이터 정책의 Limited Use 요구 사항을 따릅니다. 데이터는 이미지 보정과 저장이라는 단일 목적에만 쓰며, 광고, 신용 평가, 사람이 읽는 용도로 쓰지 않습니다.</p>
+
+  <h2>보관과 삭제</h2>
+  <p>저장한 값은 사용자가 지우거나 확장 프로그램을 제거할 때까지 남습니다. 자동 적용 사이트는 툴바 팝업에서, 프리셋과 LUT는 보정 창에서 지울 수 있습니다. 확장 프로그램을 제거하면 모두 지워집니다.</p>
+
+  <h2>변경</h2>
+  <p>데이터를 다루는 방식이 바뀌면 이 문서와 시행일을 고칩니다.</p>
+
+  <h2>문의</h2>
+  <p>GitHub Issues: <a href="https://github.com/hanayou1127/image-tuner/issues">https://github.com/hanayou1127/image-tuner/issues</a></p>
+</section>
+
+<hr>
+
+<section lang="en">
+  <h1>Image Tuner Privacy Policy</h1>
+  <p class="date">Effective: November 2, 2026</p>
+  <p>Image Tuner is a Chrome extension that adjusts images and videos in place on web pages and saves adjusted images as files. It does not send user data to the developer or to any third-party server, and it contains no ads or analytics.</p>
+
+  <h2>Data handled and why</h2>
+  <ul>
+    <li><b>Images on websites:</b> The histogram, auto adjust and save need the original pixels. When you open the adjustment panel on an image, the extension downloads that image again from its original address and processes it only inside your browser.</li>
+    <li><b>Cookies:</b> So that images behind a login can be loaded, the browser sends that site's cookies with the image request. The extension does not read or store cookies.</li>
+    <li><b>Mouse and keyboard input:</b> Used only to detect an image under the pointer, show the button, and handle panel shortcuts. Input is not logged.</li>
+    <li><b>Site names:</b> The host name and adjustment values of sites where you turn on "always apply on this site". Browsing history is not stored.</li>
+    <li><b>Your settings:</b> Presets, copied values, color tables and names of imported LUTs (latest 8), color statistics and file name of a color-match reference image, and the selected panel tab and scope.</li>
+  </ul>
+
+  <h2>Where data is stored</h2>
+  <p>The settings above are stored only in this browser's extension storage. The single on/off value for showing the button uses Chrome sync storage, so if Chrome sync is on, that value travels through your Google account to your other devices.</p>
+
+  <h2>Sharing</h2>
+  <p>User data is not sold or transferred to third parties. Image requests go only to the site that hosts the image.</p>
+
+  <h2>Limited Use</h2>
+  <p>Image Tuner's use of user data adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. Data is used only for the single purpose of adjusting and saving images, and not for advertising, creditworthiness, or human reading.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Stored values remain until you delete them or remove the extension. Auto-apply sites can be removed in the toolbar popup, and presets and LUTs in the panel. Removing the extension deletes everything.</p>
+
+  <h2>Changes</h2>
+  <p>If data practices change, this page and its effective date will be updated.</p>
+
+  <h2>Contact</h2>
+  <p>GitHub Issues: <a href="https://github.com/hanayou1127/image-tuner/issues">https://github.com/hanayou1127/image-tuner/issues</a></p>
+</section>
+</main>
+</body>
+</html>
