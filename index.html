@@ -29,7 +29,7 @@
     <li><b>웹사이트의 이미지:</b> 히스토그램, 자동 보정, 저장에 원본 픽셀이 필요합니다. 사용자가 보정 창을 연 이미지를 그 이미지의 원래 주소에서 다시 받아 브라우저 안에서만 계산합니다.</li>
     <li><b>쿠키:</b> 로그인해야 보이는 이미지도 받을 수 있도록, 이미지를 다시 받을 때 브라우저가 그 이미지의 사이트 쿠키를 함께 보냅니다. 확장 프로그램은 쿠키를 읽거나 저장하지 않습니다.</li>
     <li><b>마우스와 키 입력:</b> 마우스 아래에 이미지가 있는지 확인해 버튼을 띄우고, 보정 창의 단축키를 처리하는 데에만 씁니다. 기록하지 않습니다.</li>
-    <li><b>사이트 이름:</b> 사용자가 "이 사이트에서 항상 적용"을 켠 사이트의 호스트 이름과 보정 값을 저장합니다. 방문 기록은 저장하지 않습니다.</li>
+    <li><b>사이트 이름:</b> 사용자가 "이 사이트에서 항상 적용"을 켠 사이트의 호스트 이름과 보정 값, 버튼을 끌어 옮긴 사이트의 호스트 이름과 버튼 자리를 저장합니다. 방문 기록은 저장하지 않습니다.</li>
     <li><b>사용자가 만든 설정:</b> 프리셋, 복사한 보정 값, 불러온 LUT의 색 표와 이름(최근 8개), 색 맞추기 기준 이미지의 색 분포 숫자와 파일 이름, 보정 창의 탭과 분석 화면 선택을 저장합니다.</li>
   </ul>
 
@@ -43,7 +43,7 @@
   <p>Image Tuner의 사용자 데이터 사용은 Chrome 웹 스토어 사용자 데이터 정책의 Limited Use 요구 사항을 따릅니다. 데이터는 이미지 보정과 저장이라는 단일 목적에만 쓰며, 광고, 신용 평가, 사람이 읽는 용도로 쓰지 않습니다.</p>
 
   <h2>보관과 삭제</h2>
-  <p>저장한 값은 사용자가 지우거나 확장 프로그램을 제거할 때까지 남습니다. 자동 적용 사이트는 툴바 팝업에서, 프리셋과 LUT는 보정 창에서 지울 수 있습니다. 확장 프로그램을 제거하면 모두 지워집니다.</p>
+  <p>저장한 값은 사용자가 지우거나 확장 프로그램을 제거할 때까지 남습니다. 자동 적용 사이트는 툴바 팝업에서, 프리셋과 LUT는 보정 창에서 지울 수 있고, 버튼 자리는 버튼을 더블클릭하면 지워집니다. 확장 프로그램을 제거하면 모두 지워집니다.</p>
 
   <h2>변경</h2>
   <p>데이터를 다루는 방식이 바뀌면 이 문서와 시행일을 고칩니다.</p>
@@ -64,7 +64,7 @@
     <li><b>Images on websites:</b> The histogram, auto adjust and save need the original pixels. When you open the adjustment panel on an image, the extension downloads that image again from its original address and processes it only inside your browser.</li>
     <li><b>Cookies:</b> So that images behind a login can be loaded, the browser sends that site's cookies with the image request. The extension does not read or store cookies.</li>
     <li><b>Mouse and keyboard input:</b> Used only to detect an image under the pointer, show the button, and handle panel shortcuts. Input is not logged.</li>
-    <li><b>Site names:</b> The host name and adjustment values of sites where you turn on "always apply on this site". Browsing history is not stored.</li>
+    <li><b>Site names:</b> The host name and adjustment values of sites where you turn on "always apply on this site", and the host name and button position of sites where you drag the button. Browsing history is not stored.</li>
     <li><b>Your settings:</b> Presets, copied values, color tables and names of imported LUTs (latest 8), color statistics and file name of a color-match reference image, and the selected panel tab and scope.</li>
   </ul>
 
@@ -78,7 +78,7 @@
   <p>Image Tuner's use of user data adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. Data is used only for the single purpose of adjusting and saving images, and not for advertising, creditworthiness, or human reading.</p>
 
   <h2>Retention and deletion</h2>
-  <p>Stored values remain until you delete them or remove the extension. Auto-apply sites can be removed in the toolbar popup, and presets and LUTs in the panel. Removing the extension deletes everything.</p>
+  <p>Stored values remain until you delete them or remove the extension. Auto-apply sites can be removed in the toolbar popup, presets and LUTs in the panel, and a button position by double-clicking the button. Removing the extension deletes everything.</p>
 
   <h2>Changes</h2>
   <p>If data practices change, this page and its effective date will be updated.</p>
